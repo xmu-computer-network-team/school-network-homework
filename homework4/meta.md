@@ -1,0 +1,1 @@
+三、程序设计题9.编写一个检验奇偶校验码的程序。其中，消息msg的每个元素限于0和非0（表示1）两种，返回值：0表示校验失败，1表示校验通过。接口：int parity_check(const unsigned char *msg, const int msg_length);
