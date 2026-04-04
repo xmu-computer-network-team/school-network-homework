@@ -1,0 +1,2 @@
+请用C++语言编程模拟以太网网卡根据目的地址判断一个帧应该被接收。先定义宏MAC_ADDRESS_LENGTH，再用typedef定义MAC_address类型和以太网帧的结构体EthernetFrame，定义本机地址MAC_address this_mac_address;，再书写函数int  mac_address_match(const  struct EthernetFrame *frame);判断是否本机地址、多播（多播位为1）或广播地址，返回值0为不匹配，1为匹配。36.请用C语言定义传统以太网帧头部struct ethernet_frame_header。
+计算机网络课程习题集19 37.请用C++语言利用多线程技术模拟CSMA/CD的机制（详见第29题）。
